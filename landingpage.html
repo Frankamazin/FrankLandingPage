@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Suite landing page</title>
+</head>
+<body>
+  <style>
+    #main{
+      background-color: #F3EDE7;
+    }
+    #section{
+      background-color: #FAF8F6;
+      width:1000px;
+      padding:50px;
+      margin:auto;
+      
+      
+    }
+    #buttonwhite{
+      background-color: white;
+      color: black;
+      border-color: black;
+      padding:10px;
+      border-radius: 5px;
+      float:right;
+    }
+    #buttonwhite:hover{
+      animation-name: background-color;
+    
+    animation-fill-mode: forwards;
+  }
+  @keyframes background-color {
+    100% {
+      background-color: #172339;
+      color:white;
+    }
+  }
+    
+    #buttonblue{
+      background-color: #172339;
+      color: white;
+      padding:10px;
+      border-radius: 5px;
+    } 
+
+    #buttonblue:hover{
+      animation-name: backg;
+    
+    animation-fill-mode: forwards;
+  }
+  @keyframes backg {
+    100% {
+      background: linear-gradient(120deg, #CB30E3, #FFA84E);
+      color:white;
+    }
+  }
+    
+    #boxcontainer{
+    width: 1000px;
+    height: 600px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 400px 400px 200px;
+    padding:50px;
+    }
+    #boxleft{
+    font-family: Helvetica;
+    font-size: 40px;
+   position: relative;
+   left: 120px;
+   padding:20px;
+   z-index: 1;
+      
+    }
+    #boxcenter{
+    
+    
+    }
+    #boxright{
+      font-family: Helvetica, sans-serif;
+    
+    }
+    #container2{
+    background-color: #172339;
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 400px 200px 400px;
+    }
+    #container2left{
+    position: relative;
+    left:70px;
+    bottom:90px;
+    }
+    #container2middle{
+    position: relative;
+    left:70px;
+    top: 170px;
+    }
+
+    #container2right{
+   padding-top:100px;
+   font-family: Helvetica, sans-serif;
+   color:white;
+   line-height: 30px;
+
+    }
+    #footer{
+      width:1000px;
+      margin:auto;
+      margin-top:100px;
+      display:grid;
+      grid-template-columns: 400px 450px 50px 50px 50px;
+    }
+    
+  </style>
+
+  <main id="main">
+  <div id="section">
+
+  <img src="images/logo.svg" alt="suite logo">
+
+  <button type="submit" id="buttonwhite">Request Beta Access</button>
+
+  <div id="boxcontainer">
+    <div id="boxleft">
+      <p style="position:relative; left:170px; top:50px;"><img src="images/pattern-curved-line-1.svg" width="130px"></p>
+  
+    A<strong> super solution</strong> for your <strong>business.</strong>
+  
+  <p style="font-family:Helvetica, sans-serif; font-size: 15px; line-height: 30px;">
+    Our marketing and sales automations<br>
+    help you scale your outreach to get<br>
+    more leads for your company.</p>
+
+  <button type="submit" id="buttonblue">Request Beta Access</button>
+      </div>
+    
+  <div id="boxcenter">
+    <img src="images/image-hero-portrait.webp" alt="smartphone">
+    </div>
+
+    <div id="boxright">
+  <h2>2K+</h2>
+  Companies
+
+  <h2>8</h2>
+  Languages
+
+  <h2>1.2M</h2>
+  Leads
+  </div>
+
+</div>
+
+<div id="container2">
+
+  <div id="container2left"><img src="images/image-jeremy-large.webp" alt="man holding phone"></div>
+
+  <div id="container2middle"><img src="images/pattern-curved-line-2.svg" alt="curve"></div>
+
+  <div id="container2right">
+    <p><font style="font-size:50px;">It just <strong>works.</strong></font></p>
+    <br>
+
+  “I really like how it is an all-in-one<br> 
+  solution that handle many of the<br> 
+  tasks that you would normally need<br>
+  separate tools to do the same<br> 
+  job. 
+  This thing is a miracle worker.”
+<p>
+  <strong>Jeremy Robinson</strong><br>
+  CMO, Fylo
+</p>
+
+  </div>
+
+</div>
+
+<footer id="footer">
+<div><img src="images/logo.svg" alt="suite logo"></div>
+<div>Copyright - Suite</div>
+<div><img src="images/icon-facebook.svg"></div>
+<div><img src="images/icon-twitter.svg"></div>
+<div><img src="images/icon-instagram.svg"></div>
+ </footer>
+
+  </section>
+  </main>
+
+</body>
+</html>
