@@ -11,13 +11,10 @@
 </head>
 <body>
   <style>
-    @media (max-width: 600px) {
-  #main {
-    width: 100%;
-  }
-}
+  
     #main{
       background-color: #F3EDE7;
+      
     }
     #section{
       background-color: #FAF8F6;
@@ -125,19 +122,150 @@
       display:grid;
       grid-template-columns: 400px 450px 50px 50px 50px;
     }
+    @media (max-width: 480px) {
+      
+      #main{
+        position: relative;
+width: 375px;
+height: 2389px;
+      }
+
+      #section{
+        position: absolute;
+width: 377px;
+height: 420px;
+left: 0px;
+      }
+      #logowhitebutton{
+        position: absolute;
+width: 343px;
+height: 48px;
+left: 16px;
+top: 24px;
+   
     
+  }
+  #boxcontainer{
+   
+   
+    
+  }
+  #boxleft{
+  
+position: absolute;
+width: 343px;
+height: 48px;
+left: 16px;
+top: 24px;
+    
+  }
+
+  #boxcenter{
+  
+  
+    
+  }
+  #phone{
+position: absolute;
+width: 343px;
+height: 240px;
+left: 16px;
+top: 509px;
+}
+  #boxright{
+    position: absolute;
+width: 344px;
+height: 313px;
+left: 150px;
+top: 805px;
+    
+  }
+  #container2{
+    position: absolute;
+width: 573px;
+height: 929px;
+left: -99px;
+top: 1274px;
+  }
+ 
+  #man{
+    width:200px;
+    position: absolute;
+    left: 100px;
+    bottom: 660px;
+  } 
+    #container2middle{
+    position: absolute;
+    left: 220px;
+    bottom: 200px;
+  } 
+  
+  #container2right{
+    position: absolute;
+    left: 130px;
+    bottom: 300px;
+  } 
+  
+
+
+
+ 
+
+
+  #footer{
+  position: absolute;
+width: 125px;
+height: 150px;
+left: 124.5px;
+top: 2159px;
+}
+#footerlogo{
+position: absolute;
+height: 50px;
+left: 0px;
+top: -10px;
+}
+#copyright{
+  position: absolute;
+height: 50px;
+left: -10px;
+top:50px;
+}
+#fb{
+  position: absolute;
+height: 50px;
+left: -10.5px;
+top:100px;
+
+}
+#twitter{
+  position: absolute;
+height: 50px;
+left: 35px;
+top:100px;
+
+}
+#insta{
+  position: absolute;
+height: 50px;
+left: 80px;
+top:100px;
+}
+
+}
   </style>
 
   <main id="main">
   <div id="section">
-
+<div id="logowhitebutton">
   <img src="images/logo.svg" alt="suite logo">
 
   <button type="submit" id="buttonwhite">Request Beta Access</button>
+  </div>
 
   <div id="boxcontainer">
     <div id="boxleft">
-      <p style="position:relative; left:170px; top:50px;"><img src="images/pattern-curved-line-1.svg" width="130px"></p>
+      <p style="position:relative; left:170px; top:50px;"><img src="images/pattern-curved-line-1.svg" width="130px" id="topcurve"></p>
   
     A<strong> super solution</strong> for your <strong>business.</strong>
   
@@ -150,8 +278,10 @@
       </div>
     
   <div id="boxcenter">
-    <img src="images/image-hero-portrait.webp" alt="smartphone">
+    <img src="images/image-hero-portrait.webp" alt="smartphone" id="phone">
+    
     </div>
+   
 
     <div id="boxright">
   <h2>2K+</h2>
@@ -168,7 +298,7 @@
 
 <div id="container2">
 
-  <div id="container2left"><img src="images/image-jeremy-large.webp" alt="man holding phone"></div>
+  <div id="container2left"><img src="images/image-jeremy-large.webp" alt="man holding phone" id="man"></div>
 
   <div id="container2middle"><img src="images/pattern-curved-line-2.svg" alt="curve"></div>
 
@@ -192,11 +322,11 @@
 </div>
 
 <footer id="footer">
-<div><img src="images/logo.svg" alt="suite logo"></div>
-<div>Copyright - Suite</div>
-<div><img src="images/icon-facebook.svg"></div>
-<div><img src="images/icon-twitter.svg"></div>
-<div><img src="images/icon-instagram.svg"></div>
+<div id="footerlogo"><img src="images/logo.svg" alt="suite logo"></div>
+<div id="copyright">Copyright - Suite</div>
+<div id="fb"><img src="images/icon-facebook.svg" alt="facebook"></div>
+<div id="twitter"><img src="images/icon-twitter.svg" alt="twitter"></div>
+<div id="insta"><img src="images/icon-instagram.svg" alt="instagram"></div>
  </footer>
 
   </section>
