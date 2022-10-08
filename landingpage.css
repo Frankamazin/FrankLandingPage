@@ -1,0 +1,1026 @@
+
+
+
+body{
+position: relative;
+width: 1440px;
+height: 2038px;
+background: #FAF8F6;
+margin: auto;
+}
+#banner{
+    position: absolute;
+width: 1108.85px;
+height: 56px;
+left: 166.15px;
+top: 50px;
+}
+#bannersuite{
+    position: absolute;
+    width: 78.41px;
+    height: 24.8px;
+    left: 166.15px;
+    top: 62.58px;
+}
+#bannerbutton{
+position: absolute;
+width: 219px;
+height: 56px;
+left: 1056px;
+top: 50px;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 32px;
+letter-spacing: -0.16px;
+color: #172339;
+background: #FAF8F6;
+border: 1px solid #172339;
+border-radius: 6px;
+}
+
+    #bannerbutton:hover{
+      animation-name: background-color;
+    
+    animation-fill-mode: forwards;
+  }
+  @keyframes background-color {
+    100% {
+      background-color: #172339;
+      color: #FAF8F6;
+      
+    }
+  }
+#container1{
+position: absolute;
+width: 1110px;
+height: 600px;
+left: 166px;
+top: 173px;
+}
+#path1{
+position: absolute;
+width: 287px;
+height: 36px;
+left: 455px;
+top: 218.68px;
+z-index: 1;
+
+}
+.solutiontext{
+position: absolute;
+width: 635px;
+height: 405px;
+left: 166px;
+top: 276px;
+z-index: 1;
+}
+.solutionheading{
+position: absolute;
+width: 635px;
+height: 156px;
+left: 166px;
+top: 276px;
+
+/* Heading XL */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 78px;
+/* or 108% */
+
+letter-spacing: -1px;
+
+color: #172339;
+}
+#our{
+    position: absolute;
+width: 350px;
+height: 96px;
+left: 166px;
+top: 472px;
+
+/* Body */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+letter-spacing: 0.1px;
+
+/* Grey */
+
+color: #49566D;
+}
+#buttonblue{
+position: absolute;
+width: 256px;
+height: 61px;
+left: 166.5px;
+top: 620px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+/* identical to box height, or 178% */
+
+letter-spacing: -0.18px;
+
+/* Cream White */
+
+color: #FAF8F6;
+background: #172339;
+border-radius: 6px;
+}
+#buttonblue:hover{
+      animation-name: backg;
+    
+    animation-fill-mode: forwards;
+  }
+  @keyframes backg {
+    100% {
+      background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);;
+      color: #FAF8F6;
+    }
+  }
+#phone{
+    position: absolute;
+width: 350px;
+height: 600px;
+left: 640px;
+top: 173px;
+background: url(images/image-jeremy-large.png);
+}
+#twok{
+position: absolute;
+width: 190px;
+height: 375px;
+left: 1086px;
+top: 279px;
+}
+#companies{
+    position: absolute;
+width: 190px;
+height: 26px;
+left: 1086px;
+top: 336px;
+
+/* Heading S */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+letter-spacing: 2.5px;
+
+/* Grey */
+
+color: #49566D;
+}
+#tk{
+    position: absolute;
+width: 190px;
+height: 56px;
+left: 1086px;
+top: 279px;  
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+letter-spacing: -0.5px;
+
+/* Dark Blue */
+
+color: #172339;
+}
+#eight{
+    position: absolute;
+width: 190px;
+height: 56px;
+left: 1086px;
+top: 425px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+letter-spacing: -0.5px;
+
+/* Dark Blue */
+
+color: #172339;
+}
+#languages{
+    position: absolute;
+    width: 190px;
+height: 26px;
+left: 1086px;
+top: 482px;
+
+/* Heading S */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+letter-spacing: 2.5px;
+
+/* Grey */
+
+color: #49566D;
+}
+#onepointtwo{
+    position: absolute;
+width: 190px;
+height: 56px;
+left: 1086px;
+top: 571px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+letter-spacing: -0.5px;
+
+/* Dark Blue */
+
+color: #172339;
+}
+#leads{
+    position: absolute;
+width: 190px;
+height: 26px;
+left: 1086px;
+top: 628px;
+
+/* Heading S */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+letter-spacing: 2.5px;
+
+/* Grey */
+
+color: #49566D;
+}
+#container2{
+position: absolute;
+width: 1109px;
+height: 589.56px;
+left: 167px;
+top: 927.44px;
+z-index: 1;
+}
+#rectangleblue{
+    position: absolute;
+width: 1109px;
+height: 545px;
+left: 167px;
+top: 972px;
+
+background: #172339;
+border-radius: 15px;
+z-index:1;
+
+}
+#man{
+    position: absolute;
+width: 359.81px;
+height: 589.56px;
+left: 288.49px;
+top: 927.44px;
+
+background: url(images/image-jeremy-large.png);
+z-index:1;
+
+}
+#textinblue{
+    position: absolute;
+width: 350px;
+height: 369px;
+left: 801px;
+top: 1060px;
+z-index:1;
+}
+#itjust{
+    position: absolute;
+height: 56px;
+left: 0%;
+right: 14.57%;
+top: calc(50% - 56px/2 - 156.5px);
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+letter-spacing: -0.5px;
+
+color: #FAF8F6;
+}
+#ireallylike{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 26.02%;
+bottom: 26.56%;
+
+/* Quote */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+/* or 175% */
+
+letter-spacing: 0.1px;
+
+/* Cream */
+
+color: #F3EDE7;
+}
+#jeremy{
+    position: absolute;
+height: 32px;
+left: 0%;
+right: 52.86%;
+top: calc(50% - 32px/2 + 142.5px);
+
+/* Heading M */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+/* identical to box height, or 178% */
+
+letter-spacing: -0.18px;
+
+/* Cream White */
+
+color: #FAF8F6;
+}
+#cmo{
+    position: absolute;
+left: 0%;
+right: 45.71%;
+top: 92.95%;
+bottom: 0%;
+
+/* Heading S */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+letter-spacing: 2.5px;
+
+/* Cream */
+
+color: #F3EDE7;
+}
+#creamrectangle{
+position: absolute;
+width: 1440px;
+height: 464px;
+left: 0px;
+top: 1252px;
+
+/* Cream */
+
+background: #F3EDE7;
+}
+#footer{
+    position: absolute;
+width: 1109px;
+height: 32px;
+left: 167px;
+top: 1612px;
+}
+#footerlogo{
+    position: absolute;
+height: 32px;
+left: 0%;
+right: 92.7%;
+top: calc(50% - 32px/2);
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+/* identical to box height, or 100% */
+
+letter-spacing: -0.444444px;
+
+/* Dark Blue */
+
+color: #172339;
+
+}
+#copyright{
+    position: absolute;
+height: 32px;
+left: 44.27%;
+right: 44.45%;
+top: calc(50% - 32px/2);
+
+/* Footer */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 32px;
+/* identical to box height, or 213% */
+
+text-align: center;
+letter-spacing: 0.0833333px;
+
+/* Grey */
+
+color: #49566D;
+
+}
+#fb{
+    position: absolute;
+left: 89.54%;
+right: 8.66%;
+top: 18.75%;
+bottom: 18.75%;
+
+/* Dark Blue */
+
+
+}
+#twitter{
+    position: absolute;
+left: 93.87%;
+right: 4.33%;
+top: 25.78%;
+bottom: 23.43%;
+
+/* Dark Blue */
+
+
+}
+#insta{
+    position: absolute;
+left: 98.2%;
+right: 0%;
+top: 18.75%;
+bottom: 18.75%;
+
+/* Dark Blue */
+
+
+}
+@media (max-width: 480px) {
+
+    body{
+        position: relative;
+    width: 375px;
+    height: 2389px;
+    
+    /* Cream White */
+    
+    background: #FAF8F6;
+    }
+    #banner{
+    position: absolute;
+    width: 343px;
+    height: 48px;
+    left: 16px;
+    top: 24px;
+    }
+    #bannersuite{
+    position: absolute;
+    left: 0%;
+    right: 263px;
+    top: 1%;
+    }
+    #bannerbutton{
+    position: absolute;
+    left: 140px;
+    right: 34px;
+    top: 1%;
+    bottom: 80%;
+    
+   
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    
+    letter-spacing: -0.14px;
+    
+    /* Dark Blue */
+    
+    color: #172339;
+    }
+    
+        #bannerbutton:hover{
+          animation-name: background-color;
+        
+        animation-fill-mode: forwards;
+      }
+      @keyframes background-color {
+        100% {
+          background-color: #172339;
+          color: #FAF8F6;
+          
+        }
+      }
+    #container1{
+    position: absolute;
+    width: 343.5px;
+    height: 325.32px;
+    left: 15.5px;
+    top: 128px;
+    }
+    #path1{
+    position: absolute;
+    width: 151.47px;
+    height: 19px;
+    left: 170px;
+    top: 128px;
+    
+    /* Dark Blue */
+    
+    
+    
+    }
+    .solutiontext{
+    
+    }
+    .solutionheading{
+        position: absolute;
+    width: 343px;
+    height: 89px;
+    left: 16px;
+    top: 155.32px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    /* or 116% */
+    
+    letter-spacing: -0.527778px;
+    
+    color: #172339;
+    
+    }
+    #our{
+        position: absolute;
+    width: 343px;
+    height: 84px;
+    left: 16px;
+    top: 276.32px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
+    letter-spacing: 0.0888889px;
+    
+    /* Grey */
+    
+    color: #49566D;
+    }
+    #buttonblue{
+        position: absolute;
+    width: 256px;
+    height: 61px;
+    left: 15.5px;
+    top: 392.32px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    
+    letter-spacing: -0.18px;
+    
+    /* Cream White */
+    
+    color: #FAF8F6;
+    background: #172339;
+    border-radius: 6px;
+    }
+    #buttonblue:hover{
+          animation-name: backg;
+        
+        animation-fill-mode: forwards;
+      }
+      @keyframes backg {
+        100% {
+          background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);;
+          color: #FAF8F6;
+        }
+      }
+    #phone{
+        position: absolute;
+    width: 343px;
+    height: 240px;
+    left: 16px;
+    top: 509px;
+        background: url(images/image-hero-landscape.png);
+    }
+    #twok{
+        position: absolute;
+    width: 344px;
+    height: 313px;
+    left: 15px;
+    top: 805px;
+    }
+    #companies{
+        position: absolute;
+    width: 343px;
+    height: 26px;
+    left: 15px;
+    top: 862px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 2.5px;
+    
+    /* Grey */
+    
+    color: #49566D;
+    }
+    #tk{
+        position: absolute;
+    width: 343px;
+    height: 56px;
+    left: 15px;
+    top: 805px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+    
+    text-align: center;
+    
+    /* Dark Blue */
+    
+    color: #172339; 
+    }
+    #eight{
+        position: absolute;
+    width: 343px;
+    height: 56px;
+    left: 16px;
+    top: 920px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+    
+    text-align: center;
+    
+    /* Dark Blue */
+    
+    color: #172339;
+    
+    }
+    #languages{
+        position: absolute;
+    width: 343px;
+    height: 26px;
+    left: 16px;
+    top: 977px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 2.5px;
+    
+    /* Grey */
+    
+    color: #49566D;
+    }
+    #onepointtwo{
+        position: absolute;
+    width: 343px;
+    height: 56px;
+    left: 15px;
+    top: 1035px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+    
+    text-align: center;
+    
+    /* Dark Blue */
+    
+    color: #172339;
+    }
+    #leads{
+        position: absolute;
+    width: 343px;
+    height: 26px;
+    left: 15px;
+    top: 1092px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 2.5px;
+    
+    /* Grey */
+    
+    color: #49566D;
+    }
+    #container2{
+    position: absolute;
+    width: 573px;
+    height: 929px;
+    left: -99px;
+    top: 1174px;
+    }
+    #rectangleblue{
+    position: absolute;
+    left: 0%;
+    right: 17.28%;
+    top: 60%;
+    bottom: 0%;
+    width:375px;
+    height:748px;
+    
+    /* Dark Blue */
+    
+    background: #172339;
+    border-radius: 15px;
+    
+    }
+    #man{
+    position: absolute;
+    left: 15.67%;
+    right: 26.35%;
+    top: 50%;
+    bottom: 56.73%;
+    
+    background: url(images/image-jeremy-large.png);
+    
+    
+    }
+    #textinblue{
+        position: absolute;
+    width: 350px;
+    height: 369px;
+    left: 801px;
+    top: 1060px;
+    z-index:1;
+    }
+    #itjust{
+    position: absolute;
+    height: 56px;
+    left: 0%;
+    right: 14.57%;
+    top: calc(50% - 56px/2 - 156.5px);
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+    
+    letter-spacing: -0.5px;
+    
+    color: #FAF8F6;
+    }
+    #ireallylike{
+        position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 26.02%;
+    bottom: 26.56%;
+    
+    /* Quote */
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    /* or 175% */
+    
+    letter-spacing: 0.1px;
+    
+    /* Cream */
+    
+    color: #F3EDE7;
+    }
+    #jeremy{
+    position: absolute;
+    height: 32px;
+    left: 0%;
+    right: 52.86%;
+    top: calc(50% - 32px/2 + 142.5px);
+    
+    /* Heading M */
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    
+    letter-spacing: -0.18px;
+    
+    /* Cream White */
+    
+    color: #FAF8F6;
+    }
+    #cmo{
+        position: absolute;
+    left: 0%;
+    right: 45.71%;
+    top: 92.95%;
+    bottom: 0%;
+    
+    /* Heading S */
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
+    letter-spacing: 2.5px;
+    
+    /* Cream */
+    
+    color: #F3EDE7;
+    }
+    #creamrectangle{
+        position: absolute;
+        width: 377px;
+        height: 420px;
+        left: 0px;
+        top: 1989px;
+        
+        /* Cream */
+        
+        background: #F3EDE7;
+    }
+    #footer{
+        position: absolute;
+        width: 125px;
+        height: 150px;
+        left: 124.5px;
+        top: 2159px;
+        
+    }
+    #footerlogo{
+        position: absolute;
+        height: 32px;
+        left: 18%;
+        right: 17.2%;
+        top: 50%;
+        
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        /* identical to box height, or 100% */
+        
+        letter-spacing: -0.444444px;
+        
+        /* Dark Blue */
+        
+        color: #172339;
+    }
+    #copyright{
+        position: absolute;
+        height: 32px;
+        left: 0%;
+        right: 0%;
+        top: 150px;
+        
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 32px;
+        /* identical to box height, or 213% */
+        
+        text-align: center;
+        letter-spacing: 0.0833333px;
+        
+        /* Grey */
+        
+        color: #49566D;
+    
+    }
+    #fb{
+    position: absolute;
+    left: 0%;
+    top: 132%;
+    bottom: 18.75%;
+    
+    /* Dark Blue */
+    
+    
+    }
+    #twitter{
+    position: absolute;
+    left: 50%;
+    top: 132%;
+    bottom: 18.75%;
+    
+    /* Dark Blue */
+    
+    
+    }
+    #insta{
+        position: absolute;
+    left: 100%;
+    right: 0%;
+    top: 132%;
+    bottom: 18.75%;
+    
+    /* Dark Blue */
+    
+    
+    }
+    
+    
+         }
+
+ 
